@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda a dominar o Instagram com o Curso Especialista do Instagram Marketing. Transforme seguidores em clientes e alavanque seus resultados!">
+    <title>Curso Especialista do Instagram Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #000;
+            color: #fff;
+        }
+        header {
+            background: #ff0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            background: #1c1c1c;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff0000;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff0000;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s;
+            text-transform: uppercase;
+        }
+        .cta-button:hover {
+            background: #cc0000;
+            transform: scale(1.1);
+        }
+        .promo {
+            background: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid #ff0000;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        footer {
+            background: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .faq h3 {
+            cursor: pointer;
+            background: #ff0000;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            transition: all 0.3s;
+        }
+        .faq h3:hover {
+            background: #cc0000;
+            transform: scale(1.05);
+        }
+        .faq .answer {
+            display: none;
+            background: #1c1c1c;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .testimonial-card {
+            background: #1c1c1c;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 300px;
+            text-align: center;
+            max-width: 300px;
+        }
+        .testimonial-card p {
+            font-style: italic;
+        }
+        .testimonial-card strong {
+            display: block;
+            margin-top: 10px;
+            color: #ff0000;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ff0000;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            const answer = document.getElementById(id);
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Curso Especialista do Instagram Marketing</h1>
+    <p>Domine o Instagram e transforme sua marca!</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre">Sobre o Curso</a></li>
+        <li><a href="#faq">Perguntas Frequentes</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#comprar">Comprar</a></li>
+    </ul>
+</nav>
+
+<section class="image-container">
+    <img src="URL_DA_IMAGEM_INICIAL_AQUI" alt="Imagem do Curso Especialista do Instagram Marketing" width="100%">
+</section>
+
+<section id="sobre">
+    <h2>Descubra Como Dominar o Instagram e Transformá-lo em uma Máquina de Resultados!</h2>
+    <p>Você já imaginou como seria atrair milhares de seguidores engajados, aumentar suas vendas e consolidar sua marca no Instagram? Com o <strong>Curso Especialista do Instagram Marketing</strong>, você terá em mãos tudo o que precisa para alcançar esses objetivos!</p>
+
+    <h2>O que você vai aprender?</h2>
+    <ul>
+        <li>Como criar uma estratégia poderosa de conteúdo.</li>
+        <li>Técnicas avançadas para ganhar seguidores reais e engajados.</li>
+        <li>Ferramentas para analisar seus resultados e otimizá-los constantemente.</li>
+        <li>Como usar anúncios no Instagram para alavancar suas vendas.</li>
+        <li>Segredos para criar posts que geram likes, comentários e compartilhamentos.</li>
+    </ul>
+</section>
+
+<section id="faq" class="faq">
+    <h2>Perguntas Frequentes</h2>
+    <div>
+        <h3 onclick="toggleAnswer('faq1')">1. Preciso de experiência para fazer o curso?</h3>
+        <div class="answer" id="faq1">
+            <p>Não! O curso é voltado tanto para iniciantes quanto para quem já usa o Instagram profissionalmente.</p>
+        </div>
+
+        <h3 onclick="toggleAnswer('faq2')">2. O curso tem certificado?</h3>
+        <div class="answer" id="faq2">
+            <p>Sim, ao concluir o curso você receberá um certificado de especialista em Instagram Marketing.</p>
+        </div>
+
+        <h3 onclick="toggleAnswer('faq3')">3. Por quanto tempo terei acesso ao conteúdo?</h3>
+        <div class="answer" id="faq3">
+            <p>Você terá acesso vitalício ao curso, podendo assistir às aulas quando e onde quiser.</p>
+        </div>
+
+        <h3 onclick="toggleAnswer('faq4')">4. Quais as formas de pagamento?</h3>
+        <div class="answer" id="faq4">
+            <p>O pagamento pode ser realizado de forma segura através do link fornecido nesta página.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="image-container">
+    <img src="URL_DA_IMAGEM_INICIAL_AQUI" alt="Imagem do Curso Especialista do Instagram Marketing" width="100%">
+</section>
+
+<section id="comprar" class="promo">
+    <h2>Oferta Exclusiva!</h2>
+    <p><span style="text-decoration: line-through; color: #ccc;">R$ 99,90</span> por apenas <strong style="color: #ff0000;">R$ 9,90</strong>!</p>
+    <a href="https://pay.cakto.com.br/8ooH5fQ" class="cta-button">Comprar Agora por R$ 9,90</a>
+</section>
+
+<section id="depoimentos" class="testimonials">
+    <div class="testimonial-card">
+        <p>"Depois de aplicar as estratégias do curso, meus seguidores aumentaram em 500% em apenas 3 meses! As vendas dispararam. Melhor investimento que já fiz!"</p>
+        <strong>Carla M., empreendedora</strong>
+    </div>
+    <div class="testimonial-card">
+        <p>"O curso é direto ao ponto e superprático. Aprendi a criar conteúdo que realmente atrai clientes. Recomendo demais!"</p>
+        <strong>Lucas R., profissional de marketing</strong>
+    </div>
+    <div class="testimonial-card">
+        <p>"Amei o curso! Não sabia nada sobre Instagram e agora gero leads todos os dias. As dicas são incríveis!"</p>
+        <strong>Renata F., fotógrafa</strong>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Curso Especialista do Instagram Marketing. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
